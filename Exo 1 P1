@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int i,n ; long s = 0, nbritiration = 0;
+    printf("Donner un nombre entier n : ");
+    scanf("%d", &n);
+    for(i=1; i<=n; i++)
+    {
+        s = s + i;
+        nbritiration++;
+    }
+    printf("La somme des %d premiers entiers est : %ld\n", n, s);
+    printf("Le nombre d'iterations est : %ld\n", nbritiration);
+}
